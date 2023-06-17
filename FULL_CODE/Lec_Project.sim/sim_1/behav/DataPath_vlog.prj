@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../Lec_Project.srcs/sources_1/new/Write_to_reg_Mux.v"
+verilog xil_defaultlib  "../../../Lec_Project.srcs/sources_1/new/Sign_Extend.v"
+verilog xil_defaultlib  "../../../Lec_Project.srcs/sources_1/new/Reg_out_R.v"
+verilog xil_defaultlib  "../../../Lec_Project.srcs/sources_1/new/Register_File.v"
+verilog xil_defaultlib  "../../../Lec_Project.srcs/sources_1/new/Read_1_OR_3_Mux.v"
+verilog xil_defaultlib  "../../../Lec_Project.srcs/sources_1/new/PC_Mux.v"
+verilog xil_defaultlib  "../../../Lec_Project.srcs/sources_1/new/PC.v"
+verilog xil_defaultlib  "../../../Lec_Project.srcs/sources_1/new/Instruction_Register.v"
+verilog xil_defaultlib  "../../../Lec_Project.srcs/sources_1/new/Instruction_Memory.v"
+verilog xil_defaultlib  "../../../Lec_Project.srcs/sources_1/new/Data_Memory_Reg.v"
+verilog xil_defaultlib  "../../../Lec_Project.srcs/sources_1/new/Data_Memory.v"
+verilog xil_defaultlib  "../../../Lec_Project.srcs/sources_1/new/Control_Unit.v"
+verilog xil_defaultlib  "../../../Lec_Project.srcs/sources_1/new/ALU_reg.v"
+verilog xil_defaultlib  "../../../Lec_Project.srcs/sources_1/new/ALU_B_Mux.v"
+verilog xil_defaultlib  "../../../Lec_Project.srcs/sources_1/new/ALU_A_Mux.v"
+verilog xil_defaultlib  "../../../Lec_Project.srcs/sources_1/new/ALU.v"
+verilog xil_defaultlib  "../../../Lec_Project.srcs/sources_1/new/DataPath.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
